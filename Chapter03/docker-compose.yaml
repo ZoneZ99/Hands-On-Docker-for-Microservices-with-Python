@@ -36,9 +36,9 @@ services:
                 - POSTGRES_DB=thoughts
                 - POSTGRES_USER=postgres
                 - POSTGRES_PASSWORD=somepassword
-                - POSTGRES_PORT=5432
+                - POSTGRES_PORT=5431
         ports:
-            - "5432:5432"
+            - "5431:5431"
 
     # Producion related
     server:
